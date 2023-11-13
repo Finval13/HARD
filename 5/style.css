@@ -1,0 +1,26 @@
+#countryInput {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+}
+form {
+  max-width: 1200px;
+  width: 50%;
+  margin: 10px auto;
+  background-color: antiquewhite;
+}
+#suggestions {
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+.suggestion {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  background-color: #f0f0f0;
+}

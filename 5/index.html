@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Підказки для вибору країни</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <label for="countryInput">Введіть країну:</label>
+      <input type="text" id="countryInput" oninput="showSuggestions()" />
+      <div id="suggestions"></div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
